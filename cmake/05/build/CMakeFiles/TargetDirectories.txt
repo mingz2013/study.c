@@ -1,0 +1,2 @@
+/Users/zhaojm/.study/linux/test_03/44_cmake/05/build/src/CMakeFiles/hello.dir
+/Users/zhaojm/.study/linux/test_03/44_cmake/05/build/libhello/CMakeFiles/libhello.dir
