@@ -1,3 +1,3 @@
-/Users/zhaojm/.study/study.c/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/zhaojm/.study/study.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/zhaojm/.study/study.c/cmake-build-debug/CMakeFiles/study_c.dir
+/Users/zhaojm/.study/study.c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhaojm/.study/study.c/cmake-build-debug/CMakeFiles/hello.dir

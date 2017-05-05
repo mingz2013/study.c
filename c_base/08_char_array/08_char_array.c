@@ -6,7 +6,7 @@ int main()
 	int i = 0;
 	while(1){
 		scanf("%c", &c);
-		if(c == '#'){
+        if (c == '\n') {
 			break;
 		}
 		a[i] = c;
@@ -20,4 +20,5 @@ int main()
     printf("\n");
 
 	return 0;
+
 }

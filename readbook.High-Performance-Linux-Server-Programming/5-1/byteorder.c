@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <sys/socket.h>
+#include <sys/socket.h>
 void byteorder()
 {// 用于检查机器的字节序
 	union

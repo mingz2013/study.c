@@ -92,3 +92,13 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+.idea/workspace.xml
+cmake-build-debug/5_1.cbp
+cmake-build-debug/HELLO.cbp
+readbook.High-Performance-Linux-Server-Programming/5-1/.idea/
+readbook.High-Performance-Linux-Server-Programming/5-1/CMakeLists.txt
+readbook.High-Performance-Linux-Server-Programming/5-1/cmake-build-debug/
+v8_demos/lib/
+
+
+*.out

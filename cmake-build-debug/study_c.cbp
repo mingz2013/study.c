@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="study_c"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
@@ -12,16 +12,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/zhaojm/.study/study.c/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -37,575 +27,63 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="study_c">
-				<Option output="/Users/zhaojm/.study/study.c/cmake-build-debug/study_c" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/Users/zhaojm/.study/study.c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_c"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="study_c/fast">
-				<Option output="/Users/zhaojm/.study/study.c/cmake-build-debug/study_c" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello">
+				<Option output="/Users/zhaojm/.study/study.c/cmake-build-debug/hello" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zhaojm/.study/study.c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_c/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello/fast">
+				<Option output="/Users/zhaojm/.study/study.c/cmake-build-debug/hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaojm/.study/study.c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaojm/.study/study.c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zhaojm/.study/study.c/ICTCLAS_Test/ICTCLAS_Test.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/ICTCLAS_Test/test.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/00_calclock/calclock.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/01_daytimetcpcli/daytimetcpcli.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/02_hello/02_hello.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/03_max/03_max.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/04_add/04_add.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/05_type/05_type.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/06_scanf/06_scanf.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/07_array/07_array.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/08_char_array/08_char_array.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/09_pointer/09_pointer.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/10_pointer/10_pointer.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/11_pointer_array/11_pointer_array.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/12_pointer_array/12_pointer_array.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/13_pointer_array_char/13_pointer_array_char.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/14_pointer_muti_array/14_pointer_muti_array.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/15_lower_upper_char/15_lower_upper_char.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/16_mkdir_rmdir/16_mkdir_rmdir.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/17_create_file_remove_file/17_create_file_remove_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/18_gethostbyname/18_gethostbyname.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/19_socket_create/19_socket_create.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/20_socket_udp/client.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/20_socket_udp/server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/21_tcp_select/client.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/21_tcp_select/server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/22_udp_connect/client.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/22_udp_connect/server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/TCPdaytime.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/TCPdaytimed.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/UDPtime.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/UDPtimed.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/passiveTCP.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/passiveUDP.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/23_daytime/passivesock.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/24_getpid/get_pid.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/25_fork/fork_test.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/26_vfork/vfork_test1.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/26_vfork/vfork_test2.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/27_fork/fork.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/28_execl/execl.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/29_exec_fork/exec_fork.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/30_lt_et/lt_et.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/31_epolloneshot/epolloneshot.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/32_chat_poll/chat_client.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/32_chat_poll/chat_server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/33_tcp_and_udp_server/tcp_udp.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/34_fork_epoll_server/fork_epoll_server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/35_thread/locker.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/36_processpool/processpool.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/37_cgi_conn/cgi_conn.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/38_threadpool/threadpool.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/39_http_conn/http_conn.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/39_http_conn/http_conn.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/39_http_conn/main.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/40_unified_event_source/unified_event_source.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_base/41_epoll_thread/epoll_thread.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/00_Helloworld/Helloworld.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/01_open_file/01_open_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/02_file/02_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/03_dir/03_dir.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/04_rmdir/04_rmdir.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/05_read_write_file/05_read_write_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/06_write_file/06_write_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/07_file/07_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/08_fread/08_fread.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/09_fscanf/09_fscanf.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/10_file/10_file.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/11_fork/11_fork.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/12_beexec/12_beexec.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/12_doexec/12_doexec.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/13_Pipe/13_Pipe.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/14_dup/14_dup.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/15_pthread/15_pthread.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/16_thread/16_thread.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/17_thread_mutex/17_thread_mutex.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/18_thread/18_thread.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/19_thread/19_thread.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/20_client/20_client.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/20_server/20_server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/21_gethostname/21_gethostname.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/22_http/22_http.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/23_hello_to_glade/23_hello_to_glade.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/c_linux/24_telbook/telbook.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/01/main.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/02/hello.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/02/hello.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/02/main.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/03/hello.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/03/hello.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/03/main.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/04/libhello/02_hello.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/04/libhello/hello.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/04/src/main.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/05/libhello/hello.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/05/libhello/hello.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cmake/05/src/main.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/cpp/01.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/Array/Array.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/HString/HString.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/List/List.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/List2/List2.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/Queue/Queue.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/Queue2/Queue2.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/SString/SString.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/data_structures/Stack/Stack.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.01/main.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.02/TcpServer.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.02/TcpServer.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.02/main.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/Channel.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/Channel.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/Declear.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/Define.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/IChannelCallBack.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/TcpServer.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/TcpServer.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/mini-muduo/0.03/main.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/muduo/01_echo/echo.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/muduo/01_echo/echo.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/muduo/01_echo/main.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.High-Performance-Linux-Server-Programming/5-1/byteorder.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.High-Performance-Linux-Server-Programming/5-3/listen.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.High-Performance-Linux-Server-Programming/5-5/accept.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.High-Performance-Linux-Server-Programming/5-6/client.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.High-Performance-Linux-Server-Programming/5-6/server.c">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-1/client.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-1/server.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-4/client.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-4/server.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-5/client.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-5/define.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/6-5/server.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/7-4/client.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/readbook.Server-side-Development-Technology-and-Practices/7-4/server.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/ChatClient.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/ChatServer.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/ClientSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/ClientSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/ServerSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/ServerSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/Socket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/Socket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/01/SocketException.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ChatClient.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ChatServer.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ClientSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ClientSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ServerSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ServerSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/Socket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/Socket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/SocketException.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/02/ThreadReadWriteLock.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ChatClient.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ChatServer.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ClientSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ClientSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/Epoll.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/Epoll.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/EpollServerSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/EpollServerSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ServerSocket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ServerSocket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/Socket.cpp">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/Socket.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/SocketException.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/socket/03/ThreadReadWriteLock.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/helloworld.cc">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/include/v8-debug.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/include/v8-preparser.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/include/v8-profiler.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/include/v8-testing.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/include/v8.h">
-			<Option target="study_c"/>
-		</Unit>
-		<Unit filename="/Users/zhaojm/.study/study.c/v8_demos/include/v8stdint.h">
-			<Option target="study_c"/>
+		<Unit filename="/Users/zhaojm/.study/study.c">
+			<Option target="hello"/>
 		</Unit>
 		<Unit filename="/Users/zhaojm/.study/study.c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
